@@ -1,4 +1,4 @@
-group = 'org.openrepose'
+group = 'net.sympower'
 def baseVersion = '2.5.1'
 version = project.hasProperty('release') ? baseVersion : "$baseVersion-SNAPSHOT"
 description = "Gradle plugin to ease development with XSD's using the jaxb ant task"
