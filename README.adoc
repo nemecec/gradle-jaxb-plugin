@@ -2,6 +2,11 @@
 
 :exclamation:IMPORTANT PLUGIN ID CHANGES:exclamation:
 
+This plugin is an update to the update (by Rackerlabs) to the original project (by jacobono). As the upstream project has not accepted our pull request, we created our
+own fork for our own needs. We changed plugin groupId from `org.openrepose` to `net.sympower` and published it to our own internal Maven repository.
+
+== The original README
+
 This plugin is an update to the original project this was forked from.
 We acknowledge and are grateful to these developers for their contributions to open source.
 You can find the source code of their original using the `forked from` link of this project.
