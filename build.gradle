@@ -95,12 +95,10 @@ publishing {
 
     repositories {
         maven {
-            name 'releases.maven.research.rackspace.com'
-            url 'https://maven.research.rackspacecloud.com/content/repositories/releases'
+            url uri(project.properties.sympowerMavenRepoReleasesUrl)
             credentials {
-                // NOTE: These properties should be in your ~/.gradle/gradle.properties
-                username property('maven.repo.username')
-                password property('maven.repo.password')
+                username "$sympowerMavenRepoUsername"
+                password "$sympowerMavenRepoPassword"
             }
         }
     }
